@@ -20,7 +20,7 @@ gulp.task('compress-scss', function() {
 gulp.task('compress-js', function() {
     gulp.src(JS_DEV_FILES)
         .pipe(uglify())
-	    .pipe(gulp.dest(JS_BUILD_DIRECTORY))
+        .pipe(gulp.dest(JS_BUILD_DIRECTORY))
 });
 
 gulp.task('core-watch', function() {
