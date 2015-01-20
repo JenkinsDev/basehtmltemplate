@@ -28,4 +28,4 @@ gulp.task('core-watch', function() {
     gulp.watch(JS_DEV_FILES, ['compress-js']);
 });
 
-gulp.task('default', ['core-watch']);
+gulp.task('default', ['core-watch', 'compress-js', 'compress-scss']);
