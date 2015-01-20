@@ -1,5 +1,5 @@
 {
-  "name": "Core Foundation, GulpJS, SCSS Template",
+  "name": "basehtmltemplate",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
